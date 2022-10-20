@@ -1,0 +1,6 @@
+"""python program to print tables"""
+a=int(input("Enter the number: "))
+b=int(input("Inistizer of table: "))
+c=int(input("End of the table: "))
+for i in range(b,c+1):
+    print(a,"x",i,"=",i*a)
