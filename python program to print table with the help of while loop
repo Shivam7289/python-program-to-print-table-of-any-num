@@ -1,0 +1,6 @@
+a=int(input("Enter a number: "))
+c=int(input("enter initializer of table: "))
+b=int(input("enter till you want to: "))
+while (c<=b):
+    print(a,"X",c,"=",a*c)
+    c+=1
